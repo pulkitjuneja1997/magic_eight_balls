@@ -1,0 +1,106 @@
+body{
+    background-image: url("future2.jpg"); background-repeat: no-repeat;
+     background-size: cover; background-position: center; 
+     overflow-x: hidden;
+}
+
+.s1{
+    color: seagreen; font-weight: bold; font-size: 600%; width:70%; margin-left: 20%; font-family: 'Texturina', serif;
+}
+
+.s2{
+    font-weight: bold; font-size: 400%; margin-left: 50%; font-family: 'Texturina', serif;
+
+}
+
+.horoscope{
+    float: right; background-color: white; z-index: 0;
+    width:25%; height:640px; opacity:30%; margin-top: 2%; margin-right: -0.7%; position: relative;
+}
+
+.horoscope1{
+   margin-left: 75.5%; border: 3px solid  #282C35;  width:13%; height:125px; position: absolute; z-index: 1; margin-top: 2%;
+   padding-left: 1%; 
+}
+
+.horoscope2{
+    margin-left: 75.5%; border: 3px solid  #282C35;  width:13%; height:125px; position: absolute; z-index: 1; margin-top: 11.5%;
+     padding-left: 1%; 
+    
+ }
+ .horoscope3{
+    margin-left: 75.5%; border: 3px solid  #282C35;  width:13%; height:125px; position: absolute; z-index: 1; margin-top: 21%; 
+    padding-left: 1%;
+ }
+ .horoscope4{
+    margin-left: 75.5%; border: 3px solid  #282C35;  width:13%; height:125px; position: absolute; z-index: 1; margin-top: 30.5%; 
+    padding-left: 1%;
+    
+ }
+ .horoscope5{
+    margin-left: 75.5%; border: 3px solid  #282C35;  width:13%; height:125px; position: absolute; z-index: 1; margin-top: 40%; 
+    padding-left: 1%;
+ }
+
+ .horoscope6{
+    margin-left: 88%; border: 3px solid  #282C35;  width:13%; height:125px; position: absolute; z-index: 1; margin-top: 40%; 
+    
+ }
+
+ .horoscope7{
+    margin-left: 87%; border: 3px solid  #282C35;  width:13%; height:125px; position: absolute; z-index: 1; margin-top: 2%; 
+    border-left: none;  padding-left: 1%; padding-top: 1%;
+    
+ }
+  .horoscope7{
+    margin-left: 87%; border: 3px solid  #282C35;  width:13%; height:125px; position: absolute; z-index: 1; margin-top: 2%; 
+    border-left: none;  padding-left: 1%; padding-top: 1%;
+    
+ }
+ .horoscope8{
+    margin-left: 87%; border: 3px solid  #282C35;  width:13%; height:125px; position: absolute; z-index: 1; margin-top: 11.5%; 
+    border-left: none;  padding-left: 1%; padding-top: 1%;
+    
+ }
+ .horoscope9{
+    margin-left: 87%; border: 3px solid  #282C35;  width:13%; height:125px; position: absolute; z-index: 1; margin-top: 21%; 
+    border-left: none;  padding-left: 3%; 
+    
+ }
+ .horoscope10{
+    margin-left: 87%; border: 3px solid  #282C35;  width:13%; height:125px; position: absolute; z-index: 1; margin-top: 30.5%; 
+    border-left: none;  padding-left: 2%;
+    
+ }
+
+
+
+.content{
+     width:30%; background-color: black; opacity: 70%; padding-top: 1%; border-radius: 10px; margin-top:10%; margin-left: 5%;
+}
+
+.heading{
+    font-size: 250%; font-weight: bold; text-align: center;  color: white; 
+}
+
+.inputtext{
+
+    font-size: 160%; margin-left: 8%; color: white; 
+
+}
+
+#name{
+   border: none; background: transparent; border-bottom: 2px solid white; margin-top: 8%;  margin-left: 25%; margin-bottom: 8%;
+    width:50%; height:20px; color:white;
+}
+
+.btn{
+    background: transparent; font-size: 130%; color: white; padding: 1% 2%; margin-left: 40%; margin-bottom: 6%; border-radius: 5px; 
+    border: 2px solid white; z-index:1; 
+}
+
+.btn:hover{
+    background-color: white; opacity: 50%; color: black; font-weight: bold;
+}
+
+

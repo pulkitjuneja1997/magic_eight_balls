@@ -1,0 +1,159 @@
+body{
+    background: url("176B2CF6-3E13-4FE7-8EB4754941CC9FF0_source.png"); background-repeat: no-repeat;
+     background-position: center; width:100%; position: relative; height:1100px;
+    
+}
+
+.list{
+    margin-top:10%; margin-left:20%;  background-color:black ; width:60%; padding-top:3%; padding-bottom: 3%; opacity: 0.7;
+    border-radius: 20px ; position: absolute;
+}
+
+.welcome{
+    color: white; font-size: 250%; animation: welcome 1.3s linear infinite;
+}
+
+.greeting{
+    text-align: center;
+}
+
+@keyframes welcome{
+      
+      50% {
+         color:white;
+    }
+    100%{
+        color: red;  
+   }
+
+}
+
+#name_heading{
+    color: white; text-align: center; font-size: 250%; font-weight: bold; text-transform: uppercase; 
+    animation: name_heading 1s linear infinite; margin-bottom: 1%;
+}
+
+@keyframes name_heading {
+
+    50% {
+       color: yellow;
+  }
+  100%{
+      color:white;  
+ }
+
+}
+
+.welcome:first-child{
+    animation-delay: 0.25s ;
+}
+.welcome:nth-child(2){
+    animation-delay: 0.5s ;
+}
+.welcome:nth-child(3){
+    animation-delay: 0.75s ;
+}
+.welcome:nth-child(4){
+    animation-delay: 1.1s ;
+}
+
+.queheading{
+    color: white; font-size: 200%; margin-left: 3%; font-family: Nerko One;
+}
+
+.question{
+
+     font-size: 200%; margin-top: 5%; text-align: center; margin-bottom: 2%; color:white;  font-family:'Texturina', serif;
+}
+
+.question:hover{
+
+    content:'\00bb'; cursor: pointer; 
+
+}
+
+#answer1{
+    font-size: 200%;  text-align: center; display: none; color:white;
+}
+
+#answer2{
+    font-size: 200%;  text-align: center; display: none; color:white;
+}
+#answer3{
+    font-size: 200%;  text-align: center; display: none; color:white;
+}
+#answer4{
+    font-size: 200%;  text-align: center; display: none; color:white;
+}
+#answer5{
+    font-size: 200%;  text-align: center; display: none; color:white;
+}
+#answer6{
+    font-size: 200%;  text-align: center; display: none; color:white;
+}
+#answer7{
+    font-size: 200%;  text-align: center; display: none; color:white;
+}
+#answer8{
+    font-size: 200%;  text-align: center; display: none; color:white;
+}
+
+.btn2{
+    float: right; font-size: 90%; margin-right: 2%; font-weight: bold; animation: btn2 1s linear infinite;
+    background-color: white; border-radius: 5px;
+}
+
+@keyframes btn2{
+
+    0% { float: right; font-size: 90%; margin-right: 2%; font-weight: bold; background-color: blue;color: white;}
+    50% { float: right; font-size: 90%; margin-right: 1%; font-weight: bold; background-color: violet;}
+    100% { float: right; font-size: 90%; margin-right: 2%; font-weight: bold; background-color: blue; color: white;}
+    
+
+}
+
+.btn3{
+     font-size: 50%; margin-right: 2%; font-weight: bold; 
+}
+
+
+.wheel{
+    position: absolute; margin-top: 30%; left: 30%; animation : wheel 7s linear infinite;
+}
+
+@keyframes wheel{
+
+    100% {
+        transform: rotate(360deg);
+    }
+
+}
+
+
+.btn4{
+    color: white; font-size: 120%; padding: 0.7% 5%; border-radius: 10px; margin-left: 40%; font-weight: bold;
+    margin-top: 5%; border:2px solid white; animation: btn4 2s linear infinite; background:linear-gradient(yellow,red)
+}
+
+
+@keyframes btn4{
+
+    0%{  color: white; font-size: 120%; padding: 0.7% 5%; background: linear-gradient(red,yellow); border-radius: 10px; margin-left: 40%;
+        margin-top: 5%; border:2px solid white;
+
+    }
+
+    50% {
+        color: white; font-size: 170%; padding: 1% 10%; background:linear-gradient(yellow,red); border-radius: 10px; margin-left: 38%;
+        margin-top: 5%; border:2px solid white;
+
+    }
+
+}
+
+
+
+
+
+
+
